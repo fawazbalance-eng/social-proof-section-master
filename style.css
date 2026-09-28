@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+body{
+    background-image: url("/images/bg-pattern-top-desktop.svg"),url("/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 60px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    /* border: 2px solid blue; */
+    width: 100%;
+    /* padding: 20px;   */
+    display: flex;
+}
+.ten{
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+    /* padding: 20px; */
+}
+.ten h1{
+    font-size: 30px;
+    width: 70%;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 15px;
+}
+.ten p {
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+}
+.rate{
+    /* border: 2px solid brown; */
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.view{
+    /* border: 2px solid black;  */
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    margin-right: -10px;
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: hsla(300, 43%, 22%,0.2);
+    gap: 2px;
+    /* justify-content: space-between; */
+}
+.pal{
+    margin-left: -5px;
+}
+.car{
+    margin-left: 20px;
+}
+.cas{
+    margin-left: 70px;
+}
+.view img{
+    width: 20%;
+}
+.view h1{
+    font-size: 12px;
+    color: hsl(300, 43%, 22%);
+    margin-left: 10px;
+}
+.second{
+    /* border: 2px solid yellow;     */
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    padding-bottom: 50px;
+}
+.colt{
+     /* border: 2px solid salmon; */
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px; 
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.irene{
+    /* border: 2px solid blanchedalmond; */
+    width: 100%;
+    border-radius: 10px;
+     background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    margin: 5px; 
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+.anne{
+    /* border: 2px solid blueviolet; */
+    border-radius: 10px;
+    width: 100%;
+     background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    /* margin: 5px; */
+}
+.coin{
+    /* border: 2px solid blueviolet; */
+    width: 100%;
+    /* padding: 20px;    */
+    margin: 5px;  
+    display: flex;
+}
+.coin img{
+    border-radius: 50%;
+    width: 20%;
+}
+.smith{
+    margin-left: 10px;
+    padding: 5px;
+    /* border: 2px solid black; */
+}
+.coin h1{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.coin p{
+    font-size: 10px;
+    color: hsl(333, 80%, 67%);
+}
+.para{
+        /* border: 2px solid blueviolet; */
+    width: 100%;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+}
+
+    /* media */
+ @media screen and (max-width: 500px) {
+body{
+    background-image: url("/images/bg-pattern-top-mobile.svg"), url("/images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.first{
+    /* border: 2px solid blue; */
+    width: 100%;
+    flex-direction: column;
+}
+.ten h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.ten p {
+    font-size: 15px;
+    width: 100%;
+}
+.rate{
+    /* border: 2px solid brown; */
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}.view{
+    /* border: 2px solid black;  */
+    margin: 5px;
+    width: 100%;
+    flex-direction: column;
+}
+.you{
+    gap: 20px;
+}
+.view img{
+    width: 5%;
+}
+.second{
+    /* border: 2px solid yellow;     */
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.colt{
+     /* border: 2px solid salmon; */
+    width: 95%;
+    margin: 8px;
+}
+.irene{
+    /* border: 2px solid blanchedalmond; */
+    width: 95%;
+    margin: 8px; 
+    margin-top: -2px;
+}
+.anne{
+    /* border: 2px solid blueviolet; */
+    width: 95%;
+    margin-top: -1px;
+    margin-left: 8px;
+}
+.coin img{
+    border-radius: 50%;
+    width: 10%;
+}
+.para{
+        /* border: 2px solid blueviolet; */
+    width: 100%;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 5px;
+    text-align: left;
+    margin-top: 5px;
+}
+ }   
+ @media screen and (min-width: 501px) and (max-width: 800px) {
+.container{
+    /* border: 2px solid; */
+    width: 100%;
+}
+    
+ }
